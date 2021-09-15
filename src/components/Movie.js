@@ -4,7 +4,6 @@ import "./Movie.css"
 
 function Movie({year, title, summary, poster, genres}) {
     return (<div className="movie">
-      
             <img src={poster} alt={title} title={title} />
             <div className="movie__data">
                 <h3 className="movie__title">{title}</h3>
