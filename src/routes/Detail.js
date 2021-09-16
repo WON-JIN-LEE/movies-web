@@ -5,6 +5,7 @@ class Detail extends React.Component{
             const {location, history} = this.props;
         if (location.state === undefined) {
             history.push("/");
+            // history.goBack();
         }
     }
     render() {
